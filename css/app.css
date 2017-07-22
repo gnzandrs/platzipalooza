@@ -1,5 +1,5 @@
 body {
-  background-color: #ee3f54;
+  background-color: black;
 }
 
 h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
@@ -153,4 +153,11 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
 .data-sticky {
   width: 100%;
   z-index: 100; /* to avoid lineup submenu collapse problem with data-sticky */
+}
+
+#offCanvas,
+#offCanvas li a {
+  background-color: black;
+  color: white;
+  font-family: 'Bree Serif', serif;
 }
